@@ -9,6 +9,7 @@ import javax.persistence.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 @Entity
 @SequenceGenerator(name = "SQ_ARRIENDO", initialValue = 1, sequenceName = "SQ_ARRIENDO", allocationSize = 1)
 public class Arriendo {

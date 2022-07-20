@@ -8,6 +8,7 @@ import javax.persistence.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 @Entity
 @SequenceGenerator(name = "SQ_PELICULA", initialValue = 1, sequenceName = "SQ_PELICULA", allocationSize = 1)
 public class Pelicula {

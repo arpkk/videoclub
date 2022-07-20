@@ -12,6 +12,7 @@ import javax.persistence.SequenceGenerator;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 @Entity
 @SequenceGenerator(name = "SQ_CLIENTE", initialValue = 1, sequenceName = "SQ_CLIENTE", allocationSize = 1)
 public class Cliente {
